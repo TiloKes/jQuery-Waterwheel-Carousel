@@ -63,7 +63,7 @@
         position:relative;
         clear:both;
         overflow:hidden;
-        background:#FFF;
+        background:#4dac8c;
       }
       #carousel img {
         visibility:hidden; /* hide images until carousel can handle them */
@@ -88,53 +88,26 @@
       }
     </style>
   </head>
-  <body>
-    <h1>Carousel Demo</h1>
+  <body style="background-color: cyan;">
+    <h1 style="text-align: center;">***Carousel***</h1>
     <div id="carousel">
-      <img src="images/1.jpg" id="item-1" />
-      <img src="images/2.jpg" id="item-2" />
-      <img src="images/3.jpg" id="item-3" />
-      <img src="images/4.jpg" id="item-4" />
-      <img src="images/5.jpg" id="item-5" />
-      <img src="images/6.jpg" id="item-6" />
-      <img src="images/7.jpg" id="item-7" />
-      <img src="images/8.jpg" id="item-8" />
-      <img src="images/9.jpg" id="item-9" />
+      <img src="images\Birthday-1_256.gif" id="item-1" />
+      <img src="images\Birthday-2_256.gif" id="item-2" />
+      <img src="images\Birthday-3_256.gif" id="item-3" />
+      <img src="images\Birthday-4_256.gif" id="item-4" />
+      <img src="images\Birthday-5_256.gif" id="item-5" />
+      <img src="images\Birthday-6_256.gif" id="item-6" />
+      <img src="images\Birthday-7_256.gif" id="item-7" />
+      <img src="images\Birthday-8_256.gif" id="item-8" />
+      <img src="images\Birthday-9_256.gif" id="item-9" />
     </div>
     <a href="#" id="prev">Prev</a> | <a href="#" id="next">Next</a>
 
     <br/>
-
-    <div class="split-left">
-      <h2>Set Options (<a href="http://www.bkosborne.com/jquery-waterwheel-carousel/options" target="_blank">view available options</a>)</h2>
-      <p>You can set new options for the carousel here. Once you are satisified with the appearance of the carousel, just copy and paste the options into your own implementation.</p>
-      <textarea id="newoptions" rows="15">
-{
-  flankingItems: 3,
-  movingToCenter: function ($item) {
-    $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
-  },
-  movedToCenter: function ($item) {
-    $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
-  },
-  movingFromCenter: function ($item) {
-    $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
-  },
-  movedFromCenter: function ($item) {
-    $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
-  },
-  clickedCenter: function ($item) {
-    $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
-  }
-}
-      </textarea><br/>
-      <a href="#" id="reload">Reload New Options</a>
-    </div>
-    <div class="split-right">
-      <h2>Sample callback output</h2>
-      <div id="callback-output">
-
-      </div>
+        
+    <div style="text-align: left;">
+    <h3>Man kann das Carousel auch mit einem Maus-Klick auf "Happy Birthday" weiterdrehen 
+      oder aber man benutzt das ganz kleine "Prev" oder "Next" links unter dem Carousel</h3>
     </div>
 
   </body>
